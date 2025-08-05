@@ -1,0 +1,32 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+    text-align: center;
+ 
+}
+#box3{
+    background-image:url(place.jpeg);
+    background-size: cover;
+}
+body{
+    background-image:url(girl.jpeg);
+    background-size: cover;
+}
+h1{
+   color: black; 
+}
+#box1{
+    background-image:url(cati.jpeg) ;
+    background-size: cover;
+}
+#box2{
+    background-image:url(cat-image.jpg) ;
+    background-size: cover;
+}
+#box4{
+    background-image: url(hands.jpg);
+    background-size: cover;
+}

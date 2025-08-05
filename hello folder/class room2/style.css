@@ -1,0 +1,109 @@
+a{
+    text-decoration: none;
+    color: black;
+    background-color: pink;
+}
+li{
+    list-style-type: none;
+    background-color: palevioletred;
+
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: red;
+}
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: darkorchid;
+   
+    align-self: flex-start;
+   
+}
+div{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    /*border-radius: 50%;*/
+    /*transition-duration: 2s*/
+    /*transition-delay: 1s;*/
+    /*transition-timing-function: ease-in;*/
+    /*transform: scale(2);*/
+    /*rotate: 20deg;*/
+    top: 100px;
+    left: 100px;
+    animation-name: sizeanimation;
+    animation-duration: 2s;
+    /*animation-timing-function: ease-in;*/
+    /*animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;*/
+    animation: coloranimate 2s ease-in 0s infinite normal;
+}
+
+@keyframes coloranimate  {
+    /*from {background-color: aquamarine; }*/
+    /*from {background-color: red;}
+    to {background-color: blue;}*/
+    0% {
+         left: 0px; 
+         background-color: yellow;
+    }
+    50%{
+        background-color: blue;
+    }
+    100% {
+         left: 200px;
+         background-color: red; 
+    }
+}
+@keyframes sizeanimate{
+    from{ left: opx;}
+    to{left: 200px;}
+}
+div:hover{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+}
+div:active{
+    background-color: red;
+    color: aqua;
+    font-size: 20px;
+}
+
+
+
+
+
+@media (max-width : 300px) {
+    div {
+        background-color:black;
+    }
+}
+@media (min-width : 300px) and ( max-width:400px) {
+    div {
+        background-color:pink;
+    }
+}
+@media (min-width : 400px) and ( max-width:600px) {
+    div {
+        background-color:red;
+    }
+}
+@media (min-width : 600px) {
+    div {
+        background-color:green;
+    }
+}
+
