@@ -42,7 +42,7 @@ div{
     /*rotate: 20deg;*/
     top: 100px;
     left: 100px;
-    animation-name: sizeanimation;
+    animation-name: coloranimation;
     animation-duration: 2s;
     /*animation-timing-function: ease-in;*/
     /*animation-delay: 0s;
