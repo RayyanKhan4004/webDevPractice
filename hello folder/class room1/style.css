@@ -3,7 +3,7 @@
     height: 200px;
     border-radius: 50%;
     border: 20px solid yellow;
-    border-top: 2opx solid aqua;
+    border-top: 20px solid aqua;
     animation: spinAnimate 3s ease-in 0s infinite;
 }
 @keyframes spinAnimate {
