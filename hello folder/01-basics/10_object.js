@@ -1,9 +1,7 @@
 // singleton
 // object/.creat
-
 //object literals
 const mysym = Symbol("key1")
-
 const  JsUser = {
     name: "mehak",
     "full name": "mehak shahzadi",
@@ -14,7 +12,6 @@ const  JsUser = {
     isloggedIn: false,
     lastLoginDay: ["Monday", "saturday"]
 }
-
 // console.log(JsUser.email)
 // console.log(JsUser["email"])
 // console.log(JsUser["full name"])
